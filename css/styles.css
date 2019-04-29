@@ -467,12 +467,20 @@ button:focus,
   .grid {
     grid-template-columns: 1fr;
   }
+  img {
+    width: 100%;
+  }
 }
+
 @media all and (min-width: 500px) and (max-width: 750px){
   .grid {
     grid-template-columns: 1fr 1fr;
   }
+  img {
+    width: 100%;
+  }
 }
+
 @media all and (max-width: 750px) {
   .grid {
     grid-gap: 10px;
@@ -483,5 +491,8 @@ button:focus,
   }
   h1 {
     font-size: 22px;
+  }
+  img {
+    width: 100%;
   }
 }
