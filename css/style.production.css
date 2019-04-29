@@ -28,9 +28,8 @@ Secondary Color (Orange): #e0b354;
    --text-align-right: right;
    --display-ib: inline-block;
    --display-flex: flex;
-
  }
-
+ 
  html {
    height: 100%;
    margin: 0;
