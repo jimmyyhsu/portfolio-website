@@ -184,6 +184,7 @@ form {
 .page-header {
   background-color: var(--background-color);
   display: var(--display-flex);
+  width: 100%;
   padding: var(--padding);
 }
 
@@ -673,21 +674,13 @@ button:focus,
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
-  img {
-    width: 100%;
-  }
 }
-
 @media all and (min-width: 500px) and (max-width: 750px){
   .grid {
     -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr;
   }
-  img {
-    width: 100%;
-  }
 }
-
 @media all and (max-width: 750px) {
   .grid {
     grid-gap: 10px;
@@ -698,8 +691,5 @@ button:focus,
   }
   h1 {
     font-size: 22px;
-  }
-  img {
-    width: 100%;
   }
 }
