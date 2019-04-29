@@ -175,13 +175,12 @@ form {
 
 .page-footer {
   width: 100%;
-  background-color: #767676;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   clear: both;
   display: var(--display-flex);
   flex-direction: column;
   text-align: var(--text-align-center);
   position: absolute;
-  left: 0;
   bottom: 0;
 }
 
@@ -277,6 +276,10 @@ form {
 #wrapper {
   min-height: 100%;
   position: relative;
+}
+
+#content {
+  padding-bottom: 150px;
 }
 
 button,
@@ -479,6 +482,7 @@ button:focus,
     transform: translate(150px, -30px);
   }
 }
+
 
 @media all and (max-width: 500px) {
   .grid {
