@@ -124,6 +124,7 @@ table, td, th {
   color: var(--white);
   border: 1px solid;
   width: 25%;
+  align-self: center;
 }
 
 form {
