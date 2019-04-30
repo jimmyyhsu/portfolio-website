@@ -24,8 +24,6 @@ Secondary Color (Orange): #e0b354;
    --opacity: 0.8;
    --text-decoration: none;
    --list-style-type: none;
-   --text-align-center: center;
-   --text-align-right: right;
    --display-ib: inline-block;
    --display-flex: flex;
 
@@ -142,7 +140,7 @@ form {
 }
 
 .about-me {
-  text-align: var(--text-align-center);
+  text-align: center;
 }
 
 .hobby-list {
@@ -196,7 +194,7 @@ form {
   clear: both;
   display: var(--display-flex);
   flex-direction: column;
-  text-align: var(--text-align-center);
+  text-align: center;
   position: absolute;
   bottom: 0;
 }
@@ -216,7 +214,7 @@ form {
 
 .page-header__item:last-child {
   flex-grow: 1;
-  text-align: var(--text-align-right);
+  text-align: right;
 }
 
 .grid__item {
