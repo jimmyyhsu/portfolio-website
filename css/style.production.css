@@ -28,6 +28,7 @@ Secondary Color (Orange): #e0b354;
    --text-align-right: right;
    --display-ib: inline-block;
    --display-flex: flex;
+
  }
 
  html {
@@ -120,10 +121,8 @@ h1 {
    font-weight: 700;
  }
 
-table, td, th {
+table {
   color: var(--white);
-  border: 1px solid;
-  width: 25%;
 }
 
 form {
@@ -132,16 +131,11 @@ form {
   color: var(--white);
 }
 
-.centered-table {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .test-body {
   background-color: var(--white);
 }
 
-.centered {
+.about-me {
   text-align: var(--text-align-center);
 }
 
@@ -205,12 +199,16 @@ form {
   background-color: var(--background-color);
   display: var(--display-flex);
   padding: var(--padding);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .page-header__item {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 200px;
           flex: 0 1 200px;
+  width: 100%;
+  height: 100%;
 }
 
 .page-header__item:last-child {
@@ -704,7 +702,6 @@ button:focus,
     grid-template-columns: 1fr;
   }
   img {
-    width: 100%;
   }
 }
 @media all and (min-width: 500px) and (max-width: 750px){
@@ -713,7 +710,6 @@ button:focus,
     grid-template-columns: 1fr 1fr;
   }
   img {
-    width: 100%;
   }
 }
 @media all and (max-width: 750px) {
@@ -728,6 +724,5 @@ button:focus,
     font-size: 22px;
   }
   img {
-    width: 100%;
   }
 }

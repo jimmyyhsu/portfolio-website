@@ -188,10 +188,13 @@ form {
   background-color: var(--background-color);
   display: var(--display-flex);
   padding: var(--padding);
+  flex-wrap: wrap;
 }
 
 .page-header__item {
   flex: 0 1 200px;
+  width: 100%;
+  height: 100%;
 }
 
 .page-header__item:last-child {
@@ -489,7 +492,6 @@ button:focus,
     grid-template-columns: 1fr;
   }
   img {
-    width: 100%;
   }
 }
 @media all and (min-width: 500px) and (max-width: 750px){
@@ -497,7 +499,6 @@ button:focus,
     grid-template-columns: 1fr 1fr;
   }
   img {
-    width: 100%;
   }
 }
 @media all and (max-width: 750px) {
@@ -512,6 +513,5 @@ button:focus,
     font-size: 22px;
   }
   img {
-    width: 100%;
   }
 }
