@@ -121,14 +121,25 @@ h1 {
    font-weight: 700;
  }
 
-table {
+table, td, th {
   color: var(--white);
+  width: 25%;
+  border: 1px solid;
 }
 
 form {
   padding: var(--padding);
   margin: var(--margin);
   color: var(--white);
+}
+
+.centered {
+  text-align: center;
+ }
+
+.centered-table {
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .test-body {
