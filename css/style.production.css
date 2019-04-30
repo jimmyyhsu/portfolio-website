@@ -180,6 +180,10 @@ form {
 }
 
 .profile__portrait {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 200px;
+          flex: 0 1 200px;
+  height: 100%;
   float: left;
   width: 250px;
   margin-right: 40px;
