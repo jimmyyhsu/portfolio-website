@@ -720,6 +720,9 @@ button:focus,
   }
   img {
   }
+  svg{
+    height: 225px;
+  }
 }
 @media all and (min-width: 500px) and (max-width: 750px){
   .grid {
@@ -727,6 +730,9 @@ button:focus,
     grid-template-columns: 1fr 1fr;
   }
   img {
+  }
+  svg{
+    height: 300px;
   }
 }
 @media all and (max-width: 750px) {
@@ -741,5 +747,7 @@ button:focus,
     font-size: 22px;
   }
   img {
+  }
+  svg{
   }
 }
